@@ -1,0 +1,43 @@
+{
+  "name": "pjt_daejeon_10th_class8_vue_team04",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.0.18",
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/js": "^7.3.67",
+    "@popperjs/core": "^2.11.8",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vuepic/vue-datepicker": "^7.2.2",
+    "axios": "^1.6.1",
+    "chart.js": "^4.4.0",
+    "flowbite-datepicker": "^1.2.4",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "v-calendar": "^3.1.2",
+    "vite-plugin-vuetify": "^1.0.2",
+    "vue": "^3.3.4",
+    "vue-chartjs": "^5.2.0",
+    "vue-router": "^4.2.5",
+    "vue3-perfect-scrollbar": "^1.6.1",
+    "vuetify": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "postcss": "^8.4.28",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.4.11"
+  }
+}
