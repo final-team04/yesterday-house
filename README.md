@@ -32,17 +32,15 @@
 
 ### Back-End
 
-height="50%"></p>
-
 - UserLogic : 로그인
 
-<p align="center"><img src="image/back/UserLogic.png" width="60%" ><p>
-<p align="center"><img src="image/back/UserModel.png" width="60%" ><p>
-<p align="center"><img src="image/back/HouseLogic.png" width="60%" ><p>
-<p align="center"><img src="image/back/HouseModel.png" width="60%" ><p>
-<p align="center"><img src="image/back/BoardLogic.png" width="60%" ><p>
-<p align="center"><img src="image/back/BoardModel.png" width="60%" ><p>
-<p align="center"><img src="image/back/ExceptionAndInterceptor.png" width="70%" ><p>
+<p align="center"><img align="center" src="image/back/UserLogic.png" width="60%" ><p>
+<p align="center"><img align="center" src="image/back/UserModel.png" width="60%" ><p>
+<p align="center"><img align="center" src="image/back/HouseLogic.png" width="60%" ><p>
+<p align="center"><img align="center" src="image/back/HouseModel.png" width="60%" ><p>
+<p align="center"><img align="center" src="image/back/BoardLogic.png" width="60%" ><p>
+<p align="center"><img align="center" src="image/back/BoardModel.png" width="60%" ><p>
+<p align="center"><img align="center" src="image/back/ExceptionAndInterceptor.png" width="70%" ><p>
 
 <hr>
 <br><br><br>
