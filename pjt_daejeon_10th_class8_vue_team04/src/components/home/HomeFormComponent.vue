@@ -139,7 +139,6 @@ const formatMonth = ([start, end]) => {
       <div class="flex-column items-center relative w-96 rounded-md shadow-sm">
         <div class="inset-y-0 right-0 flex justify-center items-center">
           <VueDatePicker
-            allowedDates
             :format="formatMonth"
             id="datePicker"
             auto-apply

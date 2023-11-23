@@ -97,6 +97,7 @@ SET UNIQUE_CHECKS = @OLD_UNIQUE_CHECKS;
 insert into user
 values (0, 'admin', 0, 'admin');
 
+select * from board;
 insert into board(uid, title, content, type)
 values (22, '중간발표 공지', '11월 21일에 중간 발표가 있으니 참고하시기 바랍니다.', 'NOTICE');
 insert into board(uid, title, content, type)

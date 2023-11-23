@@ -17,7 +17,7 @@ const emits = defineEmits(["closeBoardDetail", "createBoardSuccess"]);
 
 const createBoard = async () => {
   let data = {
-    aptCode: props.data,
+    aptCode: props.data.aptCode,
     userId: user.value.userId,
     title: title.value,
     content: content.value,
