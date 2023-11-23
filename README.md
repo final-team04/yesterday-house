@@ -65,7 +65,7 @@
 ## 4. 화면 설계서
 
 - 사이트 맵
-![Alt text](image.png)
+![Alt text](image/web/사이트맵.png)
 <hr><br><br><br>
 
 - 메인화면<br>
@@ -86,14 +86,16 @@
   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG)<br>
 
 1. 아이디 / 비밀번호를 통해 로그인
-2. 회원가입 페이지 이동<br>
+2. 회원가입 페이지 이동
+<br><br>
 <hr><br><br><br>
 
 - 회원가입<br>
   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.PNG)<br>
 
 1. 아이디 / 닉네임 / 비밀번호/ 비밀번호 확인을 통해 회원가입(비밀번호 확인 기능)
-2. 로그인 페이지로 이동<br>
+2. 로그인 페이지로 이동
+<br><br>
 <hr><br><br><br>
 
 - 아파트 매매정보<br>
@@ -126,12 +128,14 @@
 2.  아파트 주변 1km 범위 도식 및 마커 클릭시 오버레이 제공
 3.  주변 아파트 거래내역의 평균과 현재 아파트 거래내역의 점수 비교 및 주변 시설 종류 및 수에 대한 정보 제공
 4.  아파트 거래 상세 내역으로 준공연도, 거래일, 도로명주소, 정보
-<br><br><br>
-![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.PNG)
-로드뷰
-<br><br><br>
-![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C8.PNG)
-주변 매물 평균 과 아파트 거래내역 비교 및 주변 시설 개수를 종합한 총합점수 제공
+    <br><br>
+    로드뷰<br>
+    ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.PNG)
+
+    <br><br>
+    주변 매물 평균 과 아파트 거래내역 비교 및 주변 시설 개수를 종합한 총합점수 제공<br>
+    ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C8.PNG)
+
 <br>
 <hr><br><br><br>
 
