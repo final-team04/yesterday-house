@@ -84,9 +84,7 @@ watch(
         }
       }
     }
-
     await searchNearbyInformation();
-
     inCircleList.value = inCircleMarkers.value;
 
     // emits("getInCircleMarkers", category_data);
@@ -104,8 +102,11 @@ const searchNearbyInformation = async () => {
   const searchCategory = (categoryCode) => {
     return new Promise((resolve) => {
       const callback = function (result, status, pagination) {
+        console.log("왜?");
         if (status === kakao.maps.services.Status.OK) {
           resolve({ categoryCode, totalCount: pagination.totalCount });
+        } else {
+          resolve({ categoryCode, totalCount: 0 });
         }
       };
 
@@ -116,7 +117,6 @@ const searchNearbyInformation = async () => {
       });
     });
   };
-
   const categoryResults = await Promise.all(categorys.map((category) => searchCategory(category)));
 
   categoryResults.forEach((result) => {
@@ -214,7 +214,6 @@ const loadMarkers = () => {
     kakao.maps.event.addListener(marker, "click", () => {
       // 여기서 피니아 처리
       // pickAptData.value = aptList.value[i];
-      console.log(aptList.value[i]);
       closeOverlay();
       overlays.value[i].setMap(map);
       let closeBtn = document.getElementsByClassName("close")[0];
