@@ -52,7 +52,7 @@ watch(
 
     loadMarkers();
   },
-  { deep: true }
+  { deep: true },
 );
 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -91,7 +91,7 @@ watch(
 
     // emits("getInCircleMarkers", category_data);
   },
-  { deep: true }
+  { deep: true },
 );
 
 ///////////////////////////////////////////////////////////////////////////////////////////
@@ -226,7 +226,7 @@ const loadMarkers = () => {
 
   const bounds = positions.value.reduce(
     (bounds, position) => bounds.extend(position.latlng),
-    new kakao.maps.LatLngBounds()
+    new kakao.maps.LatLngBounds(),
   );
 
   map.setBounds(bounds);
@@ -236,6 +236,7 @@ const loadMarkers = () => {
 ///////////////////////////////////////////////////////////////////////////////////////////
 // 마커 삭제
 const deleteMarkers = () => {
+  closeOverlay();
   if (markers.value.length > 0) {
     markers.value.forEach((marker) => marker.setMap(null));
   }
