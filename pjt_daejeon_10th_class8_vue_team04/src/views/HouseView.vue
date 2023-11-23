@@ -111,7 +111,7 @@ function modifyBoardSuccess() {
     <!-- <template v-if="boardCreateIsOpen"> -->
     <BoardCreateComponent
       v-if="aptData"
-      :data="aptData.aptCode"
+      :data="aptData"
       @close-board-detail="closeBoardDetail"
       @create-board-success="createBoardSuccess"
     />
