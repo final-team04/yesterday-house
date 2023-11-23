@@ -64,6 +64,10 @@
 
 ## 4. 화면 설계서
 
+- 사이트 맵
+![Alt text](image.png)
+<hr><br><br><br>
+
 - 메인화면<br>
   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C1.PNG)<br>
 
@@ -74,8 +78,9 @@
 5. 아파트 거래내역 조회
 6. 공지사항
 7. 뉴스 크롤링 제공<br><br><br>
-   검색 날짜 범위 설정
-   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C11.PNG)<br><hr><br><br><br>
+검색 날짜 범위 설정
+![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C11.PNG)<br>
+<hr><br><br><br>
 
 - 로그인<br>
   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.PNG)<br>
@@ -98,7 +103,8 @@
 2. 아파트 이름으로 검색
 3. 아파트 거래 내역 리스트
 4. 아파트 거래 내역의 아파트 위치
-   <br><hr><br><br><br>
+<br>
+<hr><br><br><br>
 
 - 아파트 이름으로 검색<br>
   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C5.PNG)<br>
@@ -107,10 +113,11 @@
 2. 정보 수정하기로 이동하기
 3. 로그아웃
 4. 회원 탈퇴
-   <br><br><br>
-   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C13.PNG)
-   회원 정보 수정(현재 비밀번호 및 새 비밀펀호 확인 기능)
-   <br><hr><br><br><br>
+<br><br><br>
+![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C13.PNG)
+회원 정보 수정(현재 비밀번호 및 새 비밀펀호 확인 기능)
+<br>
+<hr><br><br><br>
 
 - 아파트 거래 상세 내역<br>
   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C6.PNG)<br>
@@ -118,16 +125,15 @@
 1.  아파트 이름, 가격, 거래일 제공 및 클릭 이벤트 작동시 아파트 주변 로드뷰 제공
 2.  아파트 주변 1km 범위 도식 및 마커 클릭시 오버레이 제공
 3.  주변 아파트 거래내역의 평균과 현재 아파트 거래내역의 점수 비교 및 주변 시설 종류 및 수에 대한 정보 제공
-4.  아파트 거래 상세 내역으로 준공연도, 거래일, 도로명주소, 정보<br><br><br>
-
-    ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.PNG)
-    로드뷰
-
-    <br><br><br>
-    ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C8.PNG)
-
-    주변 매물 평균 과 아파트 거래내역 비교 및 주변 시설 개수를 종합한 총합점수 제공
-    <br><hr><br><br><br>
+4.  아파트 거래 상세 내역으로 준공연도, 거래일, 도로명주소, 정보
+<br><br><br>
+![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C7.PNG)
+로드뷰
+<br><br><br>
+![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C8.PNG)
+주변 매물 평균 과 아파트 거래내역 비교 및 주변 시설 개수를 종합한 총합점수 제공
+<br>
+<hr><br><br><br>
 
 - 매물 이모저모 및 근처 다른 매물<br>
   ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C9.PNG)<br>
@@ -141,6 +147,3 @@
    <br><br><br>
    ![Alt text](image/web/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C10.PNG)
    근처 다른 매물과 현재 매물의 정보비교 제공 및 다른 매물의 거래 내역들 제공
-   <br><hr><br><br><br>
-
-<br><br><br>
