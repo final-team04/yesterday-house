@@ -102,7 +102,6 @@ const searchNearbyInformation = async () => {
   const searchCategory = (categoryCode) => {
     return new Promise((resolve) => {
       const callback = function (result, status, pagination) {
-        console.log("왜?");
         if (status === kakao.maps.services.Status.OK) {
           resolve({ categoryCode, totalCount: pagination.totalCount });
         } else {
