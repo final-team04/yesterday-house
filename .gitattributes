@@ -1,0 +1,2 @@
+pjt_daejeon_10th_class8_spring_team04/house.zip filter=lfs diff=lfs merge=lfs -text
+pjt_daejeon_10th_class8_spring_team04/house/src/main/resources/sql/20220519_aptcrawl.sql filter=lfs diff=lfs merge=lfs -text
